@@ -1,0 +1,51 @@
+button:hover{
+    cursor: pointer;
+}
+/*============头部================*/
+.page-hd-title{
+    font-size: 20px;
+    color: #fff;
+    background-color: #5281d7;
+    padding: 10px 20px;
+}
+/*============搜索栏================*/
+.search{
+    position: relative;
+}
+.search-input{
+    width: 90%;
+    padding: 10px 16px;
+    margin: 20px 5%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: 1px solid #5281d7;
+}
+.search-btn{
+    position: absolute;
+    width: 22px;
+    height: 24px;
+    margin: 0;
+    padding: 0;
+    top: 26px;
+    right: 36px;
+}
+/*============内容================*/
+.weui-cells::before{
+    display: none;
+}
+.weui-cell::before{
+    right: 16px;
+}
+.weui-dialog__title {
+    font-size: 22px;
+}
+.weui-dialog__bd{
+    color: #000;
+    text-align: left;
+}
+.weui-dialog__btn{
+    color: #3e7aff;
+    font-size: 20px;
+}

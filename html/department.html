@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0,user-scalable=no" name="viewport">
+    <title>办事部门</title>
+    <link href="../css/weui.min.css" rel="stylesheet">
+    <link href="../css/department.css" rel="stylesheet">
+    <script src="../js/jquery-3.5.1.js"></script>
+    <script src="../js/zepto.weui.js"></script>
+</head>
+<body>
+<!--头部开始-->
+<div class="page-hd">
+    <p class="page-hd-title">&lt;&nbsp;办事部门</p>
+</div>
+<!--头部结束-->
+<!--内容开始-->
+<div class="weui-flex">
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd1">区发改委</a></div>
+    </div>
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd2">区教育局</a></div>
+    </div>
+</div>
+<div class="weui-flex">
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd3">区公安局</a></div>
+    </div>
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd4">区民政局</a></div>
+    </div>
+</div>
+<div class="weui-flex">
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd5">区发改委</a></div>
+    </div>
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd6">区教育局</a></div>
+    </div>
+</div>
+<div class="weui-flex">
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd7">区公安局</a></div>
+    </div>
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd8">区民政局</a></div>
+    </div>
+</div>
+<div class="weui-flex">
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd9">区发改委</a></div>
+    </div>
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd10">区教育局</a></div>
+    </div>
+</div>
+<div class="weui-flex">
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd11">区公安局</a></div>
+    </div>
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd12">区民政局</a></div>
+    </div>
+</div>
+<div class="weui-flex">
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd13">区发改委</a></div>
+    </div>
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd14">区教育局</a></div>
+    </div>
+</div>
+<div class="weui-flex">
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd15">区公安局</a></div>
+    </div>
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd16">区民政局</a></div>
+    </div>
+</div>
+<div class="weui-flex">
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd17">区发改委</a></div>
+    </div>
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd18">区教育局</a></div>
+    </div>
+</div>
+<div class="weui-flex">
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd19">区公安局</a></div>
+    </div>
+    <div class="weui-flex__item">
+        <div class="placeholder"><a href="#" id="sd20">区民政局</a></div>
+    </div>
+</div>
+<!--内容结束-->
+<script>
+    $(".placeholder a").on("click", $(this),function () {
+        $.modal({
+            title: "请选择业务",
+            buttons: [
+                { text: "在线预约", onClick: function(){ console.log(1)} },
+                { text: "微信抽号", onClick: function(){ console.log(2)} },
+            ]
+        });
+    });
+</script>
+</body>
+</html>

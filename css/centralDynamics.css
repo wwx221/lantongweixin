@@ -1,0 +1,9 @@
+.weui-media-box_appmsg .weui-media-box__hd {
+    width: 100px;
+    height: 70px;
+    margin-right: 0;
+}
+
+.weui-media-box:before {
+    right: 16px;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width,initial-scale=1.0,user-scalable=no" name="viewport">
+    <title>绑定身份信息</title>
+    <link href="../css/weui.min.css" rel="stylesheet">
+    <link href="../css/login.css" rel="stylesheet">
+</head>
+<body>
+<!--头部开始-->
+<div class="page-hd">
+    <p class="weui-hd-img">
+        <img src="../img/content4.png" alt="">
+    </p>
+    <p class="page-hd-title">
+        Hi~
+    </p>
+    <p class="page-hd-title page-hd-titleTwo">
+        欢迎登录临潼区抽叫号系统
+    </p>
+</div>
+<!--头部结束-->
+<!--登录开始-->
+<div class="weui-cells weui-cells_form weui-bg">
+    <div class="weui-cell">
+        <div class="weui-cell__bd">
+            <h1>绑定身份信息</h1>
+            <label class="weui-label">请输入姓名</label>
+            <input class="weui-input" pattern=" /^[\u4E00-\u9FA5\uf900-\ufa2d·s]{2,20}$/" type="text">
+            <label class="weui-label">请输入身份证号码</label>
+            <input class="weui-input" pattern="/(^\d{15}$)|(^\d{18}$)|(^\d{17}(\d|X|x)$)/" maxlength="18" type="text">
+            <label class="weui-label">请输入手机号</label>
+            <input class="weui-input" type="tel">
+            <a href="#" class="weui-btn bg-blue">登录</a>
+        </div>
+    </div>
+</div>
+<!--登录结束-->
+</body>
+</html>
